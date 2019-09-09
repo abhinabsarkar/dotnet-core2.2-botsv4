@@ -62,11 +62,8 @@ namespace ConsoleBot.Dialogs
                         // WaterfallStep always finishes with the end of the Waterfall or with another dialog, here it is the end.
                         return await stepContext.EndDialogAsync(cancellationToken: cancellationToken);
                     case "None":
-                        // All the corresponding dialogs will happen in the context of APIC
-                        var entity = "APIC";
-                        // Push a new dialog (APIC dialog) into the dialog stack
-                        // Run the APICDialog giving it whatever details we have, it will fill out the remainder.
-                        return await stepContext.BeginDialogAsync(nameof(MyFirstDialog), entity, cancellationToken);
+                        // Push a new dialog into the dialog stack
+                        return await stepContext.BeginDialogAsync(nameof(MyFirstDialog), cancellationToken);
                     default:
                         break;
                 }

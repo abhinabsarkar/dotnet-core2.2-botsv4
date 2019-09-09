@@ -1,0 +1,11 @@
+D:\microsoft\abhinab\dotnet-core2.2-botsv4\1.console-echo-di-bot\src\bin\Debug\netcoreapp2.1\Console-EchoBot.deps.json
+D:\microsoft\abhinab\dotnet-core2.2-botsv4\1.console-echo-di-bot\src\bin\Debug\netcoreapp2.1\Console-EchoBot.runtimeconfig.json
+D:\microsoft\abhinab\dotnet-core2.2-botsv4\1.console-echo-di-bot\src\bin\Debug\netcoreapp2.1\Console-EchoBot.runtimeconfig.dev.json
+D:\microsoft\abhinab\dotnet-core2.2-botsv4\1.console-echo-di-bot\src\bin\Debug\netcoreapp2.1\Console-EchoBot.dll
+D:\microsoft\abhinab\dotnet-core2.2-botsv4\1.console-echo-di-bot\src\bin\Debug\netcoreapp2.1\Console-EchoBot.pdb
+D:\microsoft\abhinab\dotnet-core2.2-botsv4\1.console-echo-di-bot\src\obj\Debug\netcoreapp2.1\Console-EchoBot.csprojAssemblyReference.cache
+D:\microsoft\abhinab\dotnet-core2.2-botsv4\1.console-echo-di-bot\src\obj\Debug\netcoreapp2.1\Console-EchoBot.csproj.CoreCompileInputs.cache
+D:\microsoft\abhinab\dotnet-core2.2-botsv4\1.console-echo-di-bot\src\obj\Debug\netcoreapp2.1\Console-EchoBot.AssemblyInfoInputs.cache
+D:\microsoft\abhinab\dotnet-core2.2-botsv4\1.console-echo-di-bot\src\obj\Debug\netcoreapp2.1\Console-EchoBot.AssemblyInfo.cs
+D:\microsoft\abhinab\dotnet-core2.2-botsv4\1.console-echo-di-bot\src\obj\Debug\netcoreapp2.1\Console-EchoBot.dll
+D:\microsoft\abhinab\dotnet-core2.2-botsv4\1.console-echo-di-bot\src\obj\Debug\netcoreapp2.1\Console-EchoBot.pdb

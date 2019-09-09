@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\microsoft\\abhinab\\dotnet-core2.2-botsv4\\1.console-echo-di-bot\\src\\Console-EchoBot.csproj": {}
+  },
+  "projects": {
+    "D:\\microsoft\\abhinab\\dotnet-core2.2-botsv4\\1.console-echo-di-bot\\src\\Console-EchoBot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\microsoft\\abhinab\\dotnet-core2.2-botsv4\\1.console-echo-di-bot\\src\\Console-EchoBot.csproj",
+        "projectName": "Console-EchoBot",
+        "projectPath": "D:\\microsoft\\abhinab\\dotnet-core2.2-botsv4\\1.console-echo-di-bot\\src\\Console-EchoBot.csproj",
+        "packagesPath": "C:\\Users\\abhinab\\.nuget\\packages\\",
+        "outputPath": "D:\\microsoft\\abhinab\\dotnet-core2.2-botsv4\\1.console-echo-di-bot\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\abhinab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.Bot.Builder": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
