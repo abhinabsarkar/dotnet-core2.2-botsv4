@@ -11,4 +11,4 @@ This repository contains the framework for building intranet chat bot running on
 ![Alt text](https://github.com/abhinabsarkar/intranet-chat-bot/blob/master/images/High%20level%20architecture.png)
 
 ## Code - Skype For Business intranet chat bot
-The source code for the framework & the detailed explanation can be found [here](https://github.com/abhinabsarkar/bots-v4-dotnet-core2.2/tree/master/3.SkypeForBusinessOnPremiseBot).
+The source code for the framework & the detailed explanation can be found [here](https://github.com/abhinabsarkar/dotnet-core2.2-botsv4/tree/master/3.SkypeForBusinessOnPremiseBot).
