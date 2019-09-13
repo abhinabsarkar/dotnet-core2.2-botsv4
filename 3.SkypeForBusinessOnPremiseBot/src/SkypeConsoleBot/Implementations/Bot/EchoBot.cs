@@ -40,14 +40,10 @@ namespace SkypeConsoleBot.Implementations.Bot
             // see https://aka.ms/about-bot-activity-message to learn more about the message and other activity types
             if (turnContext.Activity.Type == ActivityTypes.Message)
             {
-                // Echo back to the user whatever they typed on console.
-                await turnContext.SendActivityAsync($"You sent '{turnContext.Activity.Text}'");
-
-                // Respond back to the user on skype channel
+                // Echo back to the user whatever they typed on skype channel
                 sendMessageUrl = turnContext.Activity.ChannelData.ToString();
                 botResponse = "Dotnet core bot responding: " + turnContext.Activity.Text;
-                await ucwaSendMessageService.SendMessage(UCWAConfiguration._httpClient, botResponse, sendMessageUrl, 
-                    UCWAConfiguration._tc);
+                await turnContext.SendActivityAsync(botResponse);
             }
             else
             {

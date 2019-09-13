@@ -10,6 +10,9 @@ namespace SkypeConsoleBot.Implementations
 {
     internal class SkypeForBusinessOnPremAdapter : BotAdapter, ISkypeForBusinessOnPremAdapter
     {
+        // Generic GetService< T> method is an extension method. Add namespace using Microsoft.Extensions.DependencyInjection
+        IUCWASendMessage UcwaSendMessageService = DI._serviceProvider.GetService<IUCWASendMessage>();
+        string SendMessageUrl;
         private readonly string _fromId;
         private readonly string _conversationId;
         private readonly string _sendMessageUrl;
@@ -109,7 +112,12 @@ namespace SkypeConsoleBot.Implementations
                             }
                             else
                             {
-                                Console.WriteLine($"{message.Text}");
+                                // Console.WriteLine($"{message.Text}");
+
+                                // Send response to the Skype channel
+                                SendMessageUrl = context.Activity.ChannelData.ToString();
+                                await UcwaSendMessageService.SendMessage(UCWAConfiguration._httpClient, message.Text, SendMessageUrl,
+                                    UCWAConfiguration._tc);     
                             }
                         }
 
