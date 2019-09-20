@@ -1,0 +1,13 @@
+{
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ],
+  "LuisAppId": "0d88591f-f159-4447-9901-b9c1079ea2a6",
+  "LuisAPIKey": "4a7fd97d43944013bf8f12549c604c60",
+  "LuisAPIHostName": "westus.api.cognitive.microsoft.com"
+}
